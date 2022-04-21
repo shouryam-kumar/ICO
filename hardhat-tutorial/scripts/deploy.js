@@ -10,7 +10,7 @@ async function main() {
 
     const cryptoDevsTokenContractDeploy = await cryptoDevTokenContract.deploy(cryptoDevsNFTContract);
 
-    await cryptoDevsTokenContractDeploy.deployed(); //0x53bbA30a80f142e2B97c502513AeFE8aA89E01c8
+    await cryptoDevsTokenContractDeploy.deployed(); //0x676Ac2890CA05738dFAd6537774d7267A22830E4
 
     console.log("CryptoDevsContractToken is deployed to: ", cryptoDevsTokenContractDeploy.address);
 }
